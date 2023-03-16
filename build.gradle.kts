@@ -48,6 +48,11 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("junit:junit:4.13.2")
     testImplementation(kotlin("test"))
+
+    implementation("com.google.oauth-client:google-oauth-client:1.34.1")
+    implementation("com.google.oauth-client:google-oauth-client-jetty:1.34.1")
+    implementation("com.google.http-client:google-http-client:1.42.2")
+    implementation("com.google.http-client:google-http-client-gson:1.42.2")
 }
 
 tasks.test {

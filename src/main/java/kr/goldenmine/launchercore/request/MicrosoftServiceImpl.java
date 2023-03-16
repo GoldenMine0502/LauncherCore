@@ -66,9 +66,10 @@ public class MicrosoftServiceImpl {
 // scope=XboxLive.signin%20XboxLive.offline_access&
 // prompt=select_account&
 // cobrandid=8058f65d-ce06-4c30-9559-473c9275a65d
+//        RetrofitServices.MICROSOFT_SERVICE.requestAuthorizationCode("")
         String url = RetrofitServices.MICROSOFT_LIVE_SERVICE.requestAuthorizationCodeWithCobrandId(
                 "select_account",
-                "8058f65d-ce06-4c30-9559-473c9275a65d",
+                "8058f65d-ce06-4c30-9559-473c9275a65d", // 마인크래프트 배경
                 clientId,
                 "http://localhost:" + port + "/auth/microsoft",
                 "code",

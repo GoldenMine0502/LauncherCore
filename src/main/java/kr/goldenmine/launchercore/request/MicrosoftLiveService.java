@@ -5,7 +5,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-interface MicrosoftLiveService {
+public interface MicrosoftLiveService {
 // https://login.live.com/oauth20_authorize.srf?
 // client_id=bdbbf15c-d072-4d57-be2c-c0702ad18be4&
 // redirect_uri=http://localhost:20200/&
